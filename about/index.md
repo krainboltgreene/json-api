@@ -14,25 +14,18 @@ JSON API is:
 
 ## Editors <a href="#editors" id="editors" class="headerlink"></a>
 
-There are two primary editors of this specification:
+There are four primary editors of this specification:
 
 - [Steve Klabnik](http://twitter.com/steveklabnik)
 - [Yehuda Katz](http://twitter.com/wycats)
-
-> Perhaps most significant to the Web, however, is that the separation [between
-> clients and servers] allows the components to evolve independently, thus
-> supporting the Internet-scale requirement of multiple organizational domains.
->
-> - Roy Fielding, "Architectural Styles and the Design of Network-based
-> Software Architectures", Chapter 5.
-
-Steve primarily represents the server side, Yehuda the client side. Both of us
-care about both, but we want to make sure to have a champion on either side.
+- [Dan Gebhardt](http://twitter.com/dgeb)
+- [Tyler Kellen](http://twitter.com/tkellen)
 
 ## History <a href="#history" id="history" class="headerlink"></a>
 
-JSON API is extracted from the JSON transport implicitly defined by
-[Ember](http://emberjs.com/) Data's REST adapter.
+JSON API was originally drafted by [Yehuda Katz](http://twitter.com/wycats)
+in May 2013. This first draft was extracted from the JSON transport
+implicitly defined by [Ember](http://emberjs.com/) Data's REST adapter.
 
 In general, Ember Data's goal is to eliminate the need for ad-hoc code
 per application to communicate with servers that communicate in a
@@ -69,3 +62,4 @@ This media type is still a work in progress, and we are extremely open to
 feedback and proposals for improvement. That said, implementation work
 has already begun, and we value good working systems over perfect
 vaporware.
+
